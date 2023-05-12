@@ -21,9 +21,9 @@ git commit -m "Initial commit"
 expect << EOF
 spawn git push -u origin main
 expect "Username for 'https://github.com': "
-send "SnakeXrnt \n"
+send "SnakeXrnt\n"
 expect "Password for 'https://SnakeXrnt@github.com': "
-send "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 \n"
+send "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\n"
 expect eof
 EOF
 
@@ -33,8 +33,8 @@ git push -u origin main
 expect << EOF
 spawn git push -u origin main
 expect "Username for 'https://github.com': "
-send "SnakeXrnt \n"
+send "SnakeXrnt\n"
 expect "Password for 'https://SnakeXrnt@github.com': "
-send "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 \n"
+send "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\n"
 expect eof
 EOF
