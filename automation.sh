@@ -10,10 +10,12 @@ read -p "Enter the git remote link for the repository: " remote_link
 git remote add origin $remote_link
 
 # stage all changes
-git add .
+
 
 # rename the default branch to main
 git branch -M main
+
+git add .
 
 # make an initial commit
 git commit -m "Initial commit"
